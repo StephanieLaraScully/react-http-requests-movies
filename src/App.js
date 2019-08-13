@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
+import MovieContainer from './containers/MovieContainer.js';
 import './App.css';
 
-function App() {
-  return (
-    <h1>Hello World, I will be a film browser!</h1>
-  );
+class App extends Component {
+  render() {
+    return (
+      <MovieContainer />
+    );
+  }
 }
 
 export default App;
